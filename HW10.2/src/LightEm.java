@@ -1384,12 +1384,4 @@ class ExamplesLightEmAll {
     }
   }
 
-  void testBigBang(Tester t) {
-
-    LightEmAll game = new LightEmAll(5, 5, 0, false, new Random());
-
-    game.bigBang(game.width * WorldConstants.PIECE_SIZE, game.height * WorldConstants.PIECE_SIZE);
-
-  }
-
 }
